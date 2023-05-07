@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --webkit-box-sizing: border-box;
+    --moz-box-sizing: border-box;
+    outline: none;
+}
+:root{
+    --black:#000000;
+    --black-900:#000000;
+    --black-800:#32363b;
+    --black-700:#5B5F64;
+    --black-600:#0E1E32;
+    --black-500:#959FA8;
+    --white:#ffffff;
+    --white-900: #c4cfde;
+    --white-800:#F3F4F7;
+    --white-700:#E2E6E8;
+    --white-600:#010a1266;
+    --white-500:#EBEBEB;
+    --white-400:#ededed;
+    --red-900: #ff014f;
+    --red-800:#FF6159;
+    --red-700:#A74811;
+    --red-600:#DA6A2A;   
+    --blue-900:#287FB8; 
+    --green:#3BC158;
+    --urb:'Urbanist';
+    --bar:'Barlow Semi Condensed';
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul ,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-start{
+    justify-content:flex-start;
+}
+.justify-content-end{
+    justify-content:flex-end;
+}
+.align-item-center{
+    align-items: center;
+}
+.pad-30{
+    padding: 0 30px;
+}
+.w-20{
+    width: 20%;
+}
+.w-25{
+    width: 25%;
+    padding: 10px;
+}
+.w-30{
+    width: 30%;
+    padding: 10px;
+}
+.w-33{
+    width: 33.33%;
+    padding: 10px;
+}
+.w-40{
+    width: 40%;
+    padding: 10px;
+}
+.w-50{
+    width: 50%;
+    padding: 10px;
+}
+.w-60{
+    width: 60%;
+    padding: 10px;
+}
+.w-70{
+    width: 70%;
+    padding: 10px;
+}
+.w-75{
+    width: 75%;
+}
+.w-80{
+    width: 80%;
+}
+img{
+    width: 100%;
+    display: block;
+}
